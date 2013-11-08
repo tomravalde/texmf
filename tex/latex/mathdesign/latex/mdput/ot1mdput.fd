@@ -1,0 +1,40 @@
+%Filename: ot1mdput.fd
+%Created by: tex makevp
+%Created using fontinst v1.933
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{ot1mdput.fd}
+   [2013/02/01 Fontinst v1.933 font definitions for OT1/mdput.]
+
+\DeclareFontFamily{OT1}{mdput}{\hyphenchar \font =45}
+
+\DeclareFontShape{OT1}{mdput}{m}{it}{
+   <->  mdputri7t
+}{}
+
+\DeclareFontShape{OT1}{mdput}{m}{n}{
+   <->  mdputr7t
+}{}
+
+\DeclareFontShape{OT1}{mdput}{m}{sl}{
+   <->  mdputro7t
+}{}
+
+\DeclareFontShape{OT1}{mdput}{b}{it}{
+   <->  mdputbi7t
+}{}
+
+\DeclareFontShape{OT1}{mdput}{b}{n}{
+   <->  mdputb7t
+}{}
+
+\DeclareFontShape{OT1}{mdput}{b}{sl}{
+   <->  mdputbo7t
+}{}
+
+\DeclareFontShape{OT1}{mdput}{bx}{it}{<->ssub * mdput/b/it}{}
+\DeclareFontShape{OT1}{mdput}{bx}{n}{<->ssub * mdput/b/n}{}
+\DeclareFontShape{OT1}{mdput}{bx}{sl}{<->ssub * mdput/b/sl}{}
+
+\endinput

@@ -1,0 +1,21 @@
+%Filename: mdamdugm.fd
+%Created by: tex makevp
+%Created using fontinst v1.933
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{mdamdugm.fd}
+   [2013/02/01 Fontinst v1.933 font definitions for MDA/mdugm.]
+
+\DeclareFontFamily{MDA}{mdugm}{}
+
+\DeclareFontShape{MDA}{mdugm}{m}{n}{
+   <->  mdugmrma
+}{}
+
+\DeclareFontShape{MDA}{mdugm}{mb}{n}{
+   <->  mdugmmma
+}{}
+
+
+\endinput

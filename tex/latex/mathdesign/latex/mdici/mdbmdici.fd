@@ -1,0 +1,22 @@
+%Filename: mdbmdici.fd
+%Created by: tex makevp
+%Created using fontinst v1.933
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{mdbmdici.fd}
+   [2013/02/01 Fontinst v1.933 font definitions for MDB/mdici.]
+
+\DeclareFontFamily{MDB}{mdici}{}
+
+\DeclareFontShape{MDB}{mdici}{m}{n}{
+   <->  mdicirmb
+}{}
+
+\DeclareFontShape{MDB}{mdici}{b}{n}{
+   <->  mdicibmb
+}{}
+
+\DeclareFontShape{MDB}{mdici}{bx}{n}{<->ssub * mdici/b/n}{}
+
+\endinput

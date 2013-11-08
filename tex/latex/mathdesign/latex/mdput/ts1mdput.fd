@@ -1,0 +1,40 @@
+%Filename: ts1mdput.fd
+%Created by: tex makevp
+%Created using fontinst v1.933
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{ts1mdput.fd}
+   [2013/02/01 Fontinst v1.933 font definitions for TS1/mdput.]
+
+\DeclareFontFamily{TS1}{mdput}{}
+
+\DeclareFontShape{TS1}{mdput}{m}{it}{
+   <->  mdputri8c
+}{}
+
+\DeclareFontShape{TS1}{mdput}{m}{n}{
+   <->  mdputr8c
+}{}
+
+\DeclareFontShape{TS1}{mdput}{m}{sl}{
+   <->  mdputro8c
+}{}
+
+\DeclareFontShape{TS1}{mdput}{b}{it}{
+   <->  mdputbi8c
+}{}
+
+\DeclareFontShape{TS1}{mdput}{b}{n}{
+   <->  mdputb8c
+}{}
+
+\DeclareFontShape{TS1}{mdput}{b}{sl}{
+   <->  mdputbo8c
+}{}
+
+\DeclareFontShape{TS1}{mdput}{bx}{it}{<->ssub * mdput/b/it}{}
+\DeclareFontShape{TS1}{mdput}{bx}{n}{<->ssub * mdput/b/n}{}
+\DeclareFontShape{TS1}{mdput}{bx}{sl}{<->ssub * mdput/b/sl}{}
+
+\endinput

@@ -1,0 +1,55 @@
+%Filename: t1mdugm.fd
+%Created by: tex makevp
+%Created using fontinst v1.933
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{t1mdugm.fd}
+   [2013/02/01 Fontinst v1.933 font definitions for T1/mdugm.]
+
+\DeclareFontFamily{T1}{mdugm}{}
+
+\DeclareFontShape{T1}{mdugm}{m}{it}{
+   <->  mdugmri8t
+}{}
+
+\DeclareFontShape{T1}{mdugm}{m}{fic}{
+   <->  mdugmrifc8t
+}{}
+
+\DeclareFontShape{T1}{mdugm}{m}{n}{
+   <->  mdugmr8t
+}{}
+
+\DeclareFontShape{T1}{mdugm}{m}{fsc}{
+   <->  mdugmrfc8t
+   <->  mdugmrofc8t
+}{}
+
+\DeclareFontShape{T1}{mdugm}{m}{sl}{
+   <->  mdugmro8t
+}{}
+
+\DeclareFontShape{T1}{mdugm}{mb}{sl}{
+   <->  mdugmmo8t
+}{}
+
+\DeclareFontShape{T1}{mdugm}{mb}{fsc}{
+   <->  mdugmmofc8t
+   <->  mdugmmfc8t
+}{}
+
+\DeclareFontShape{T1}{mdugm}{mb}{n}{
+   <->  mdugmm8t
+}{}
+
+\DeclareFontShape{T1}{mdugm}{mb}{it}{
+   <->  mdugmmi8t
+}{}
+
+\DeclareFontShape{T1}{mdugm}{mb}{fic}{
+   <->  mdugmmifc8t
+}{}
+
+
+\endinput

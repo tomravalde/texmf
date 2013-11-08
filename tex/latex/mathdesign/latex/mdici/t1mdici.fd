@@ -1,0 +1,101 @@
+%Filename: t1mdici.fd
+%Created by: tex makevp
+%Created using fontinst v1.933
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{t1mdici.fd}
+   [2013/02/01 Fontinst v1.933 font definitions for T1/mdici.]
+
+\DeclareFontFamily{T1}{mdici}{}
+
+\DeclareFontShape{T1}{mdici}{m}{n}{
+   <->  mdicir8t
+}{}
+
+\DeclareFontShape{T1}{mdici}{m}{fsc}{
+   <->  mdicirfc8t
+   <->  mdicirfc8t
+   <->  mdicirifc8t
+}{}
+
+\DeclareFontShape{T1}{mdici}{m}{sc}{
+   <->  mdicirc8t
+}{}
+
+\DeclareFontShape{T1}{mdici}{m}{it}{
+   <->  mdiciri8t
+}{}
+
+\DeclareFontShape{T1}{mdici}{m}{fic}{
+   <->  mdicirifc8t
+}{}
+
+\DeclareFontShape{T1}{mdici}{m}{scsl}{
+   <->  mdiciric8t
+}{}
+
+\DeclareFontShape{T1}{mdici}{b}{n}{
+   <->  mdicib8t
+}{}
+
+\DeclareFontShape{T1}{mdici}{b}{fsc}{
+   <->  mdicibfc8t
+   <->  mdicibfc8t
+   <->  mdicibifc8t
+}{}
+
+\DeclareFontShape{T1}{mdici}{b}{sc}{
+   <->  mdicibc8t
+}{}
+
+\DeclareFontShape{T1}{mdici}{b}{it}{
+   <->  mdicibi8t
+}{}
+
+\DeclareFontShape{T1}{mdici}{b}{fic}{
+   <->  mdicibifc8t
+}{}
+
+\DeclareFontShape{T1}{mdici}{b}{scsl}{
+   <->  mdicibic8t
+}{}
+
+\DeclareFontShape{T1}{mdici}{c}{n}{
+   <->  mdicic8t
+}{}
+
+\DeclareFontShape{T1}{mdici}{c}{fsc}{
+   <->  mdicicfc8t
+   <->  mdicicfc8t
+   <->  mdicicifc8t
+}{}
+
+\DeclareFontShape{T1}{mdici}{c}{sc}{
+   <->  mdicicc8t
+}{}
+
+\DeclareFontShape{T1}{mdici}{c}{it}{
+   <->  mdicici8t
+}{}
+
+\DeclareFontShape{T1}{mdici}{c}{fic}{
+   <->  mdicicifc8t
+}{}
+
+\DeclareFontShape{T1}{mdici}{c}{scsl}{
+   <->  mdicicic8t
+}{}
+
+\DeclareFontShape{T1}{mdici}{m}{sl}{<->ssub * mdici/m/it}{}
+\DeclareFontShape{T1}{mdici}{bx}{n}{<->ssub * mdici/b/n}{}
+\DeclareFontShape{T1}{mdici}{bx}{fsc}{<->ssub * mdici/b/fsc}{}
+\DeclareFontShape{T1}{mdici}{bx}{sc}{<->ssub * mdici/b/sc}{}
+\DeclareFontShape{T1}{mdici}{bx}{it}{<->ssub * mdici/b/it}{}
+\DeclareFontShape{T1}{mdici}{b}{sl}{<->ssub * mdici/b/it}{}
+\DeclareFontShape{T1}{mdici}{bx}{sl}{<->ssub * mdici/b/sl}{}
+\DeclareFontShape{T1}{mdici}{bx}{fic}{<->ssub * mdici/b/fic}{}
+\DeclareFontShape{T1}{mdici}{bx}{scsl}{<->ssub * mdici/b/scsl}{}
+\DeclareFontShape{T1}{mdici}{c}{sl}{<->ssub * mdici/c/it}{}
+
+\endinput

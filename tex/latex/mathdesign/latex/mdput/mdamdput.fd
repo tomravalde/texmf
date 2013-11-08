@@ -1,0 +1,22 @@
+%Filename: mdamdput.fd
+%Created by: tex makevp
+%Created using fontinst v1.933
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{mdamdput.fd}
+   [2013/02/01 Fontinst v1.933 font definitions for MDA/mdput.]
+
+\DeclareFontFamily{MDA}{mdput}{}
+
+\DeclareFontShape{MDA}{mdput}{m}{n}{
+   <->  mdputrma
+}{}
+
+\DeclareFontShape{MDA}{mdput}{b}{n}{
+   <->  mdputbma
+}{}
+
+\DeclareFontShape{MDA}{mdput}{bx}{n}{<->ssub * mdput/b/n}{}
+
+\endinput

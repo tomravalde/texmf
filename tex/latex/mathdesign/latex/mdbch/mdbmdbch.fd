@@ -1,0 +1,22 @@
+%Filename: mdbmdbch.fd
+%Created by: tex makevp
+%Created using fontinst v1.933
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{mdbmdbch.fd}
+   [2013/02/01 Fontinst v1.933 font definitions for MDB/mdbch.]
+
+\DeclareFontFamily{MDB}{mdbch}{}
+
+\DeclareFontShape{MDB}{mdbch}{m}{n}{
+   <->  mdbchrmb
+}{}
+
+\DeclareFontShape{MDB}{mdbch}{b}{n}{
+   <->  mdbchbmb
+}{}
+
+\DeclareFontShape{MDB}{mdbch}{bx}{n}{<->ssub * mdbch/b/n}{}
+
+\endinput

@@ -1,0 +1,37 @@
+%Filename: ts1mdugm.fd
+%Created by: tex makevp
+%Created using fontinst v1.933
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{ts1mdugm.fd}
+   [2013/02/01 Fontinst v1.933 font definitions for TS1/mdugm.]
+
+\DeclareFontFamily{TS1}{mdugm}{}
+
+\DeclareFontShape{TS1}{mdugm}{m}{it}{
+   <->  mdugmri8c
+}{}
+
+\DeclareFontShape{TS1}{mdugm}{m}{n}{
+   <->  mdugmr8c
+}{}
+
+\DeclareFontShape{TS1}{mdugm}{m}{sl}{
+   <->  mdugmro8c
+}{}
+
+\DeclareFontShape{TS1}{mdugm}{mb}{sl}{
+   <->  mdugmmo8c
+}{}
+
+\DeclareFontShape{TS1}{mdugm}{mb}{n}{
+   <->  mdugmm8c
+}{}
+
+\DeclareFontShape{TS1}{mdugm}{mb}{it}{
+   <->  mdugmmi8c
+}{}
+
+
+\endinput

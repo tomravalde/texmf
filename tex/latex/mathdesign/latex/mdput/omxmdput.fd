@@ -1,0 +1,22 @@
+%Filename: omxmdput.fd
+%Created by: tex makevp
+%Created using fontinst v1.933
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{omxmdput.fd}
+   [2013/02/01 Fontinst v1.933 font definitions for OMX/mdput.]
+
+\DeclareFontFamily{OMX}{mdput}{}
+
+\DeclareFontShape{OMX}{mdput}{m}{n}{
+   <->  mdputr7v
+}{}
+
+\DeclareFontShape{OMX}{mdput}{b}{n}{
+   <->  mdputb7v
+}{}
+
+\DeclareFontShape{OMX}{mdput}{bx}{n}{<->ssub * mdput/b/n}{}
+
+\endinput

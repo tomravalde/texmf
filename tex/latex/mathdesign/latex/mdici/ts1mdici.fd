@@ -1,0 +1,69 @@
+%Filename: ts1mdici.fd
+%Created by: tex makevp
+%Created using fontinst v1.933
+
+%THIS FILE SHOULD BE PUT IN A TEX INPUTS DIRECTORY
+
+\ProvidesFile{ts1mdici.fd}
+   [2013/02/01 Fontinst v1.933 font definitions for TS1/mdici.]
+
+\DeclareFontFamily{TS1}{mdici}{}
+
+\DeclareFontShape{TS1}{mdici}{m}{n}{
+   <->  mdicir8c
+}{}
+
+\DeclareFontShape{TS1}{mdici}{m}{sc}{
+   <->  mdicirc8c
+}{}
+
+\DeclareFontShape{TS1}{mdici}{m}{it}{
+   <->  mdiciri8c
+}{}
+
+\DeclareFontShape{TS1}{mdici}{m}{scsl}{
+   <->  mdiciric8c
+}{}
+
+\DeclareFontShape{TS1}{mdici}{b}{n}{
+   <->  mdicib8c
+}{}
+
+\DeclareFontShape{TS1}{mdici}{b}{sc}{
+   <->  mdicibc8c
+}{}
+
+\DeclareFontShape{TS1}{mdici}{b}{it}{
+   <->  mdicibi8c
+}{}
+
+\DeclareFontShape{TS1}{mdici}{b}{scsl}{
+   <->  mdicibic8c
+}{}
+
+\DeclareFontShape{TS1}{mdici}{c}{n}{
+   <->  mdicic8c
+}{}
+
+\DeclareFontShape{TS1}{mdici}{c}{sc}{
+   <->  mdicicc8c
+}{}
+
+\DeclareFontShape{TS1}{mdici}{c}{it}{
+   <->  mdicici8c
+}{}
+
+\DeclareFontShape{TS1}{mdici}{c}{scsl}{
+   <->  mdicicic8c
+}{}
+
+\DeclareFontShape{TS1}{mdici}{m}{sl}{<->ssub * mdici/m/it}{}
+\DeclareFontShape{TS1}{mdici}{bx}{n}{<->ssub * mdici/b/n}{}
+\DeclareFontShape{TS1}{mdici}{bx}{sc}{<->ssub * mdici/b/sc}{}
+\DeclareFontShape{TS1}{mdici}{bx}{it}{<->ssub * mdici/b/it}{}
+\DeclareFontShape{TS1}{mdici}{b}{sl}{<->ssub * mdici/b/it}{}
+\DeclareFontShape{TS1}{mdici}{bx}{sl}{<->ssub * mdici/b/sl}{}
+\DeclareFontShape{TS1}{mdici}{bx}{scsl}{<->ssub * mdici/b/scsl}{}
+\DeclareFontShape{TS1}{mdici}{c}{sl}{<->ssub * mdici/c/it}{}
+
+\endinput
