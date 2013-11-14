@@ -131,6 +131,8 @@ res_yy
 rotating
 sauerj
 sectsty
+SIunits
+SIunits.zip
 soul
 standalone
 svninfo
@@ -999,30 +1001,6 @@ ifmtarg.tex
 README
 
 ./tex/latex/lectures:
-build-lecture.bat
-latex
-python
-README.md
-
-./tex/latex/lectures/latex:
-ls-R
-tex
-
-./tex/latex/lectures/latex/tex:
-latex
-
-./tex/latex/lectures/latex/tex/latex:
-lectures
-
-./tex/latex/lectures/latex/tex/latex/lectures:
-lectures.sty
-
-./tex/latex/lectures/python:
-build-lecture-bar.py
-build-lecture-foo.py
-build-lecture.py
-notes-header.tex
-slides-header.tex
 
 ./tex/latex/lipsum:
 lipsum.dtx
@@ -2662,6 +2640,17 @@ sectsty.log
 sectsty.pdf
 sectsty.sty
 
+./tex/latex/SIunits:
+binary.sty
+README
+SIunits.cfg
+SIunits.drv
+SIunits.dtx
+SIunits.ins
+SIunits.log
+SIunits.pdf
+SIunits.sty
+
 ./tex/latex/soul:
 Makefile
 soul.dtx
@@ -2808,9 +2797,6 @@ ve-contents.pdf
 ve-title.pdf
 
 ./tex/latex/tufteSideNote:
-sidenotes-demo.tex
-.sidenotes-demo.tex.swp
-tufte-sidenotes.sty
 
 ./tex/latex/ugm:
 t1ugm.fd
